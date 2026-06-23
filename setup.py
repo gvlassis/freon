@@ -1,16 +1,14 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='muon-optimizer',
-    version='0.1.0',
-    author='Keller Jordan',
-    author_email='kjordan4077@gmail.com',
-    description='Muon opimizer',
-    long_description=open('README.md').read(),
-    long_description_content_type='text/markdown',
-    url='https://github.com/KellerJordan/Muon',
-    #packages=find_packages(),
-    py_modules=['muon'],
+    name="freon",
+    version="0.1.0",
+    description="Freon optimizers.",
+    long_description=README,
+    long_description_content_type="text/markdown",
+    author="Georgios Vlassis",
+    url="https://github.com/gvlassis/Freon",
+    py_modules=["freon"],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
